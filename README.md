@@ -4,6 +4,7 @@
 - [AVA](https://github.com/avajs/ava)
 - [Mocha](https://github.com/mochajs/mocha)
 - [tape](https://github.com/substack/tape)
+- [Jasmine](https://github.com/jasmine/jasmine)
 - [uvu](https://github.com/lukeed/uvu)
 
 ## Benchmarks
@@ -12,5 +13,6 @@
 ~> "ava" 564ms
 ~> "mocha" 194ms
 ~> "tape" 118ms
+~> "jasmine" 96ms
 ~> "uvu" 87ms
 ```
