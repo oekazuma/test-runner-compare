@@ -4,8 +4,9 @@ const { execFile } = require('child_process');
 const spawn = promisify(execFile);
 
 const runners = {
-  jest: [require.resolve('./node_modules/jest/bin/jest.js'), './jest', '--env=node'],
+	jest: [require.resolve('./node_modules/jest/bin/jest.js'), './jest', '--env=node'],
 	ava: [require.resolve('./node_modules/ava/cli.js'), './ava/**'],
+	jasmine: [require.resolve('./node_modules/jasmine/bin/jasmine.js'), './jasmine'],
 	mocha: [require.resolve('./node_modules/mocha/bin/mocha'), './mocha'],
 	tape: [require.resolve('./node_modules/tape/bin/tape'), './tape'],
 	uvu: [require.resolve('./node_modules/uvu/bin.js'), './uvu'],
