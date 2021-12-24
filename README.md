@@ -6,13 +6,15 @@
 - [tape](https://github.com/substack/tape)
 - [Jasmine](https://github.com/jasmine/jasmine)
 - [uvu](https://github.com/lukeed/uvu)
+- [vitest](https://github.com/vitest-dev/vitest)
 
-## Benchmarks
+## Benchmarks (M1 Mac)
 ```
-~> "jest" 1.02s
-~> "ava" 564ms
-~> "mocha" 194ms
-~> "tape" 118ms
-~> "jasmine" 96ms
-~> "uvu" 87ms
+~> "jest" 424ms
+~> "ava" 282ms
+~> "mocha" 102ms
+~> "tape" 50ms
+~> "jasmine" 45ms
+~> "uvu" 47ms
+~> "vitest" 58ms
 ```

@@ -10,6 +10,7 @@ const runners = {
 	tape: [require.resolve('./node_modules/tape/bin/tape'), './tape'],
 	jasmine: [require.resolve('./node_modules/jasmine/bin/jasmine.js'), './jasmine'],
 	uvu: [require.resolve('./node_modules/uvu/bin.js'), './uvu'],
+	vitest: [require.resolve('./node_modules/vitest'), './vitest'],
 };
 
 function format(arr) {
