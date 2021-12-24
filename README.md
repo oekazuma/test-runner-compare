@@ -18,3 +18,14 @@
 ~> "uvu" 47ms
 ~> "vitest" 58ms
 ```
+
+## Benchmarks (Intel Mac)
+```
+~> "jest" 1.12s
+~> "ava" 626ms
+~> "mocha" 209ms
+~> "tape" 105ms
+~> "jasmine" 81ms
+~> "uvu" 86ms
+~> "vitest" 109ms
+```
